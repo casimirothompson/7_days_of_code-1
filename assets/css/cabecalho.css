@@ -1,0 +1,27 @@
+.cabecalho{
+    /* border:2px solid blue; */
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+    gap:24px;
+    padding: 96px 0;
+    font-size:20px;
+    font-weight:600;
+}
+
+.cabecalho h3{
+    font-size:16px;
+    color:var(--redColor);
+}
+
+.cabecalho h2{
+    font-size:48px;
+    color:var(--blackColor);
+}
+
+.cabecalho p{
+    color:var(--principalColor--text);
+    width:800px;
+    font-weight:400;
+}

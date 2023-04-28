@@ -1,0 +1,43 @@
+.depoimento__container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:16px;
+    margin-bottom:96px;
+}
+
+.depoimento__container h3{
+    font-size:14px;
+    font-weight:600;
+    color:var(--redColor);
+}
+
+.depoimento__container h2{
+    width:1100px;
+    font-size:36px;
+    font-weight:500;
+    color:var(--blackColor);
+    margin-bottom:16px;
+}
+
+.depoimento__container div{
+    width:100px;
+    border-radius:100%;
+}
+
+.depoimento__container picture img{
+    width:100%;
+}
+
+.depoimento__container h4{
+    font-size: 16px;
+    font-weight:500;
+    color:var(--blackColor);
+}
+
+.depoimento__container h4 + p{
+    font-size: 14px;
+    color:var(--principalColor--text);
+    font-weight:400;
+}
